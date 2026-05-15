@@ -10,9 +10,9 @@ export default function Header({ count }) {
           </div>
 
           <nav className="nav-links">
-            <a href="#">Internships</a>
-            <a href="#">Jobs</a>
-            <a href="#">Courses</a>
+            <button className="nav-btn">Internships</button>
+            <button className="nav-btn">Jobs</button>
+            <button className="nav-btn">Courses</button>
           </nav>
 
           <div className="header-actions">
